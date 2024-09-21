@@ -1,0 +1,64 @@
+.business-plan-ai-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .business-plan {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .business-plan-content {
+    line-height: 1.6;
+  }
+  
+  .business-plan-title {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 2.5em;
+  }
+  
+  .business-plan-main-header {
+    color: #e74c3c;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2.4em;
+  }
+  
+  .business-plan-extra-large-header {
+    color: #8e44ad;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+  }
+  
+  .business-plan-section-header {
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+  
+  .business-plan-subsection-header {
+    color: #2980b9;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .business-plan-paragraph {
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-weight: bold;
+  }

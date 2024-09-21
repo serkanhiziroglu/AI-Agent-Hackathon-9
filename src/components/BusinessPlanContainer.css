@@ -1,0 +1,102 @@
+.business-plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+  }
+  
+  .business-plan-form-container {
+    text-align: center;
+    width: 100%;
+    padding: 5vw;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .business-plan-step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+  
+  .business-plan-label {
+    font-size: 3vw;
+    margin-bottom: 1vh; /* Reduced gap between label and input */
+    font-weight: bold;
+  }
+  
+  .business-plan-input {
+    width: 90%;
+    max-width: 80vw;
+    padding: 2vh;
+    font-size: 2vw;
+    text-align: center;
+    border: none;
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2vh; /* Small gap between inputs */
+  }
+  
+  .business-plan-input:focus {
+    outline: none;
+  }
+  
+  .business-plan-button {
+    font-size: 2vw;
+    padding: 2vh 4vw;
+    background-color: #121416; /* Initial background color */
+    color: white;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer; /* Ensures the button appears clickable */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transitions */
+    margin-top: 2vh;
+    outline: none; /* Remove default outline on focus */
+  }
+  
+  .business-plan-button:hover {
+    background-color: #383e45; /* Change color on hover */
+    transform: translateY(-2px); /* Adds a slight lift effect on hover */
+  }
+  
+  .business-plan-button:active {
+    background-color: #003d80; /* Darker color on click */
+    transform: scale(0.98); /* Slightly reduce size on click */
+  }
+  
+  .business-plan-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .business-plan-result {
+    font-size: 2vw;
+    margin-bottom: 2vh;
+  }
+  
+  .hidden {
+    opacity: 0;
+    transform: translateY(2vh);
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(2vh);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .business-plan-form-container.visible {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  

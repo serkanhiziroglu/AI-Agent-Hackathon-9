@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.business-plan-heading {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  font-size: 2.5rem; /* Adjust size as needed */
+  color: #19317f; /* Adjust color as needed */
+}
+
+/* Hover effect: Adds shadow and changes color */
+.business-plan-heading:hover {
+  color: #007BFF; /* Change text color on hover */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Click effect: Shrinks the text slightly to simulate a click */
+.business-plan-heading:active {
+  transform: scale(0.98); /* Shrinks slightly on click */
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on click */
+}
